@@ -1,5 +1,6 @@
 # GenFourSwitchInCalculator
 Program that calculates the ranking that the AI will use when switching in Pokemon against the user
+
 *PYTHON OR A PATH-ENABLED TERMINAL IS REQUIRED IN ORDER TO USE THIS CALCULATOR*
 
 This program calculates the order in which the Gen 4 AI will attempt to switch in, based on the Pokemon you used to faint its most recent one.
