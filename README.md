@@ -1,8 +1,6 @@
 # GenFourSwitchInCalculator
 Program that calculates the ranking that the AI will use when switching in Pokemon against the user
 
-*PYTHON OR A PATH-ENABLED TERMINAL IS REQUIRED IN ORDER TO USE THIS CALCULATOR*
-
 This program calculates the order in which the Gen 4 AI will attempt to switch in, based on the Pokemon you used to faint its most recent one.
 
 Please watch Drxx's video on this before using as it explains it much more detail than I am able to: 
@@ -18,6 +16,7 @@ I wrote this largely by screaming at ChatGPT until it learned what a quad effect
 However, given the much more complex nature of deciding switch-ins (compared with Gen 3 at least), it does most of the heavy lifitng in terms of not only calculating type matchups in the exact same (flawed) way that the Platinum AI does, but it also lets you name each of the inputted Pokemon so you can clearly see them in the list.
 
 Instructions:
+*IMPORTANT* ALWAYS CAPITALISE THE FIRST LETTER OF EACH TYPE YOU ENTER OR THE CODE WILL ASSUME THE TYPE IS WRONG (Correct example: Rock, Electric - Incorrect example: rock, electric)
 1) Enter the typing of your current pokemon, (if it only has one type then enter this and hit enter again when asked for the second typing).
 2) Enter the name of the one of the AI's Pokemon
 3) Enter the types as above
@@ -25,4 +24,4 @@ Instructions:
 5) Hit y to continue and repeat steps 2-4 until all Pokemon have been entered
 6) Press n or any other key to quit the program, this will reset the ranking so you can use it again.
 
-Be aware that this is version 0.1 and currently remains untested. Further updates will come soon.
+Be aware that this is version 0.1.0 and currently remains untested. Further updates will come soon.
