@@ -1,6 +1,4 @@
 # GenFourSwitchInCalculator
-Program that calculates the ranking that the AI will use when switching in Pokemon against the user
-
 This program calculates the order in which the Gen 4 AI will attempt to switch in, based on the Pokemon you used to faint its most recent one.
 
 Please watch Drxx's video on this before using as it explains it much more detail than I am able to: 
@@ -15,13 +13,17 @@ I wrote this largely by screaming at ChatGPT until it learned what a quad effect
 
 However, given the much more complex nature of deciding switch-ins (compared with Gen 3 at least), it does most of the heavy lifitng in terms of not only calculating type matchups in the exact same (flawed) way that the Platinum AI does, but it also lets you name each of the inputted Pokemon so you can clearly see them in the list.
 
-Instructions:
-*IMPORTANT* ALWAYS CAPITALISE THE FIRST LETTER OF EACH TYPE YOU ENTER OR THE CODE WILL ASSUME THE TYPE IS WRONG (Correct example: Rock, Electric - Incorrect example: rock, electric)
-1) Enter the typing of your current pokemon, (if it only has one type then enter this and hit enter again when asked for the second typing).
-2) Enter the name of the one of the AI's Pokemon
-3) Enter the types as above
-4) The program will output the name of the pokemon along with its current rank and overall effectiveness (according to the AI)
-5) Hit y to continue and repeat steps 2-4 until all Pokemon have been entered
-6) Press n or any other key to quit the program, this will reset the ranking so you can use it again.
+v0.2.0 Patch notes
+- Switched to GUI-based interface
+- Added drop-down bars to select types
+- Added buttons to calculate and clear results
 
-Be aware that this is version 0.1.0 and currently remains untested. Further updates will come soon.
+INSTRUCTIONS
+1) Enter the type of your current Pokemon (If it is dual type you can either put the same type in each drop-down bar or select the blank option at the end of the type 2 drop down)
+2) Enter a name for one of the AI's pokemon and then input the types
+3) Hit calculate
+4) Repeat step 2-3 until the entire party has been done
+5) The Pokemon at the top of the list will be the next one switched in
+6) Hit clear to reset at any time 
+
+I'm super proud of what I've managed to cobble together in a second night's work, I'm a lone developer with very little experience coding but I've tested this out a couple of times indepently and it has been accurate so far! I'm looking forward to improving it so that it can calculate each phase of the switch-in process. Please contact with me any feedback through my GitHub!
